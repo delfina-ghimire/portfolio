@@ -1,0 +1,80 @@
+.hero {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero_text-container {
+  background-color: #fff;
+  width: 50%;
+  height: 80vh;
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 10;
+}
+
+.hero_text-container h2 {
+  align-items: center;
+  color: #0f0928;
+  font-size: 2rem;
+  font-weight: 800;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 3.5rem;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+
+.hero_text-container h1 {
+  color: #0f0928;
+  font-family: 'Playfair Display', serif;
+  font-size: 6.7rem;
+  font-weight: 600;
+  line-height: 7.8rem;
+  letter-spacing: 2px;
+  padding-bottom: 8rem;
+}
+
+.hero_text-container h1 span {
+  color: #2b00d4;
+}
+
+.hero_text-container h4 {
+  color: #444;
+  line-height: 2.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero_text-container h4 span {
+  box-shadow: inset 0 -1px 0 #2b00d4;
+  cursor: pointer;
+}
+
+.hero_text-container h4 span:hover {
+  box-shadow: inset 0 -35px 0 0 #2b00d4;
+  color: #fff;
+}
+
+.hero_image-container {
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+  width: 50%;
+}
+
+.hero_image-container img {
+  width: 100%;
+  height: 100%;
+}
