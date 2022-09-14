@@ -1,5 +1,6 @@
 .section_title-project{
-  padding-bottom: 8px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .project__grid-container {
@@ -15,6 +16,7 @@
   border: 1px solid rgba($color: #000000, $alpha: 0.2);
   border-radius: 1rem;
   cursor: pointer;
+  padding: 1rem;
 }
 
 .project__containter:hover {
@@ -24,6 +26,7 @@
 
 .project__img {
   width: 110rem;
+  object-fit: contain;
   border-radius: 1rem;
 }
 
@@ -37,6 +40,7 @@
 .project__details {
   padding: 2rem;
   text-align: center;
+  
 }
 
 .project__details h3 {
@@ -49,7 +53,6 @@
 
 .project__details p {
   font-size: 1.7rem;
-  width: 100%;
   color: #777;
   font-weight: 300;
   margin-bottom: 1.5rem;

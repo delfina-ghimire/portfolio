@@ -273,7 +273,7 @@ p {
 }
 
 .about_img-container {
-  width: 50%;
+  width: 90rem;
   height: auto;
 }
 
@@ -287,6 +287,18 @@ p {
   padding: 2rem 4rem;
 }
 
+.about_details-p1 {
+  color: #777;
+}
+
+.about_details-p2 {
+  color: #777;
+}
+
+.section_title-skills {
+  margin-bottom: 15rem;
+}
+
 .skills {
   display: -ms-grid;
   display: grid;
@@ -295,6 +307,8 @@ p {
   gap: 10px;
   width: 100%;
   margin-top: 5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .skills__container {
@@ -334,7 +348,8 @@ p {
 }
 
 .section_title-project {
-  padding-bottom: 8px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .project__grid-container {
@@ -362,6 +377,7 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   cursor: pointer;
+  padding: 1rem;
 }
 
 .project__containter:hover {
@@ -373,6 +389,8 @@ p {
 
 .project__img {
   width: 110rem;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 1rem;
 }
 
@@ -399,7 +417,6 @@ p {
 
 .project__details p {
   font-size: 1.7rem;
-  width: 100%;
   color: #777;
   font-weight: 300;
   margin-bottom: 1.5rem;
@@ -832,5 +849,15 @@ textarea.input {
   .btn {
     padding: 0.8rem 2rem;
   }
+}
+
+.footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 4rem 0;
+  border-top: 1px solid blue;
+  font-size: 1.2rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -27,7 +27,7 @@
             <a href="#skills">Skills</a>
             <a href="#project">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
+            <!-- <a href="#blog">Blog</a> -->
             <a href="#">Resume</a>
         </nav>
     </header>
@@ -61,21 +61,18 @@
                 <img src="./assets/delfina.png" alt="">
             </div>
             <div class="about_details">
-                <P>
-                    Showoff starts!
+                <P class="about_details-p1">
+                    <b>I'm a self taught web developer passionate about crafting scalable web products that looks and feels amazing.</b>
                     <br>
                     <br>
-                    
-                    Lorem ipsum dolor sit amet consectetur,
-                    adipisicing elit.<br>
-                    Id, in ducimus?
-                    Ipsa hic dolorum repellendus.
-                    Saepe architecto sunt enim sequi,<br>
-                    corrupti aperiam eius illum deserunt,
-                    eligendi neque natus labore accusamus.
+                </P>
+                <p class="about_details-p2">
+                    I am passionate about combining beautiful code with <br/> beautiful design that brings out intuitive, pixel perfect  user experiences. Programming gives me superpower to give life to ideas.
+                    I am always learning, polishing and  challenging my skills to be better than I was yesterday.   
                     <br>
                     <br>
-                  More Showoffs! 
+                    <b> When I'm not in front of a computer screen,</b> I'm probably reading new book, traveling, practicing 
+                    Spanish or volunteering. 
                 </P>
             </div>
         </div>
@@ -84,20 +81,21 @@
     <!-- About Section Ends -->
     <!-- Skill Section Starts -->
 
-    <section class="section_title">
+    <section class="section_title section_title-skills ">
         <h2>Skills</h2>
     </section>
 
     <section class="skills pa-100">
         <div class="skills__container">
             <div class="skills__icon">
-                <img src="./assets/icons/code.svg" alt="" srcset="">
+                <img src="./assets/icons/code.svg" alt="development">
             </div>
             <div class="skills__detail">
                 <h4>Development</h4>
                 <ul class="skills_list">
-                    <li>Html, CSS, Sass</li>
-                    <li>Javascript (ES6+)</li>
+                    <li>Html, CSS/Sass</li>
+                    <li>Bootstrap, Material UI, Tailwind</li>
+                    <li>Javascript (ES6+), jQuery</li>
                     <li>React, Redux</li>
                     <li>MongoDB, Express</li>
                     <li>Node.js</li>
@@ -107,7 +105,7 @@
         </div>
         <div class="skills__container">
             <div class="skills__icon">
-                <img src="./assets/icons/design.svg" alt="" srcset="">
+                <img src="./assets/icons/design.svg" alt="Design & prototype">
             </div>
             <div class="skills__detail">
                 <h4>Design & Prototype</h4>
@@ -121,23 +119,24 @@
         </div>
         <div class="skills__container">
             <div class="skills__icon">
-                <img src="./assets/icons/tools.svg" alt="" srcset="">
+                <img src="./assets/icons/tools.svg" alt="Tools">
             </div>
             <div class="skills__detail">
                 <h4> Tools</h4>
                 <ul class="skills_list">
+                    <li>Git + Github</li>
                     <li>Notion</li>
-                    <li>Postman</li>
-                    <li>React / Redux</li>
-                    <li>MongoDB / Express</li>
-                    <li>Node.js</li>
+                    <li>Postman</li>                   
+                    <li>Chrome Dev Tools</li>
+                    <li>Grunt + Gulp</li>
+                    <li>Terminal</li>
                 </ul>
             </div>
 
         </div>
         <div class="skills__container">
             <div class="skills__icon">
-                <img src="./assets/icons/motion.svg" alt="" srcset="">
+                <img src="./assets/icons/motion.svg" alt="Motion">
             </div>
             <div class="skills__detail">
                 <h4>Motion</h4>
@@ -149,22 +148,22 @@
             </div>
 
         </div>
-        <!-- <div class="skills__container">
+        <div class="skills__container">
             <div class="skills__icon">
                 <img src="./assets/icons/Others.svg" alt="" srcset="">
             </div>
             <div class="skills__detail">
                 <h4>Others</h4>
                 <ul class="skills_list">
-                    <li>Html / CSS / Sass</li>
-                    <li>Javascript (ES6+)</li>
-                    <li>React / Redux</li>
-                    <li>MongoDB / Express</li>
-                    <li>Node.js</li>
+                    <li>BEM</li>
+                    <li>PWA</li>
+                    <li>Restful APIs</li>
+                    <li>SEO, Acesibility</li>
+                    <li>Design Fundamentals, Color Theory</li>
                 </ul>
             </div>
 
-        </div> -->
+        </div>
     </section>
 
     <!-- Skill Section Ends -->
@@ -178,55 +177,52 @@
      <section class="project__grid-container pa-100">
         <article class="project__containter  mb-2">
             <div class="project__img pa-1">
-                <img src="./assets/p1.png" alt="" srcset="">
+                <img src="./assets/p1.png" alt="friendsbook"   target="_blank" rel="noopener noreferrer" >
             </div>
             <div class="project__details ptb-6">
-                <h3>Pinterest Clone</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et dolore tempore autem iure, quas itaque,
-                    eaque eligendi, veniam sit officiis nam veritatis quo possimus fuga quia ut quod! Iusto, velit?
-                
+                <h3>FriendsBook</h3>
+                <p>
+                 A <b>Fullstack social media application </b>  with CRUD functionality for posts & users, view friends post on your timeline, follow/unfollow users, like/dislike posts, get news and follow recomendations.
                 </p>
 
                 <ul class="projects__technologies">
-                    <li>Html</li>
-                    <li>CSS</li>
                     <li>React</li>
-                    <li>Firebase</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>Node js</li>
                 </ul>
 
                 <div class="project__view-icons">
-                    <a href="#"><img src="./assets/icons/github.svg" alt="" srcset=""> </a>
-                    <a href="#"><img src="./assets/icons/external-link.svg" alt="" srcset=""> </a>
+                    <a href="https://github.com/clair-daisies/social-media-app"><img src="./assets/icons/github.svg" alt="view code" target="_blank" rel="noopener noreferrer"> </a>
+                    <a href="https://social-media-app-fawn.vercel.app"><img src="./assets/icons/external-link.svg" alt="view live"  target="_blank" rel="noopener noreferrer" > </a>
                 </div>
             </div>
         </article>
 
         <article class="project__containter  mb-2">
             <div class="project__img pa-1">
-                <img src="./assets/p1.png" alt="" srcset="">
+                <img src="./assets/p2.png" alt="" srcset="" target="_blank" rel="noopener noreferrer" >
             </div>
             <div class="project__details ptb-6">
-                <h3>React Project2 (WIP)</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et dolore tempore autem iure, quas itaque,
-                    eaque eligendi, veniam sit officiis nam veritatis quo possimus fuga quia ut quod! Iusto, velit?</p>
+                <h3>  SandBox - NFT Website            </h3>
+                <p>SandBox is the <b>Modern UX / UI Site</b> that allows you to the explore, create, sale, and purchase the  NFTs. It consists the tuned blend of multiple complex gradiends and graphics.</p>
 
                 <ul class="projects__technologies">
-                    <li>Html</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>Sass</li>
+                    <li>React</li>
+                    <li>Tailwind css</li>
+                   
                 </ul>
 
                 <div class="project__view-icons">
-                    <a href="#"><img src="./assets/icons/github.svg" alt="" srcset=""> </a>
-                    <a href="#"><img src="./assets/icons/external-link.svg" alt="" srcset=""> </a>
+                    <a href="https://github.com/clair-daisies/sandbox-NFT-marketplace" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/github.svg" alt="view code"> </a>
+                    <a href="https://sandbox-nft.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/external-link.svg" alt="view live"  > </a>
                 </div>
             </div>
         </article>
 
         <article class="project__containter  mb-2">
             <div class="project__img pa-1">
-                <img src="./assets/p1.png" alt="" srcset="">
+                <img src="./assets/p3.png" alt="" srcset="" target="_blank" rel="noopener noreferrer" >
             </div>
             <div class="project__details ptb-6">
                 <h3>Avacodo: Ecommerce Website</h3>
@@ -241,15 +237,15 @@
                 </ul>
 
                 <div class="project__view-icons">
-                    <a href="#"><img src="./assets/icons/github.svg" alt="" srcset=""> </a>
-                    <a href="#"><img src="./assets/icons/external-link.svg" alt="" srcset=""> </a>
+                    <a href="#"><img src="./assets/icons/github.svg" alt="" target="_blank" rel="noopener noreferrer"  srcset="" > </a>
+                    <a href="#"><img src="./assets/icons/external-link.svg" alt="" target="_blank" rel="noopener noreferrer"  srcset=""> </a>
                 </div>
             </div>
         </article>
 
         <article class="project__containter  mb-2">
             <div class="project__img pa-1">
-                <img src="./assets/p1.png" alt="" srcset="">
+                <img src="./assets/p4.png" alt="" srcset="">
             </div>
             <div class="project__details ptb-6">
                 <h3>Natours - Travel Website</h3>
@@ -264,7 +260,7 @@
 
                 <div class="project__view-icons">
                     <a href="https://natours-travel-website.netlify.app/"><img src="./assets/icons/github.svg" alt="" srcset=""> </a>
-                    <a href="https://natours-travel-website.netlify.app/"><img src="./assets/icons/external-link.svg" alt="" srcset=""> </a>
+                    <a href="https://natours-travel-website.netlify.app/"><img src="./assets/icons/external-link.svg" alt="" target="_blank" rel="noopener noreferrer"  srcset=""> </a>
                 </div>
             </div>
         </article>
@@ -350,6 +346,13 @@
         </div>
     </section>
     <!-- Contact Section Ends -->
+     <!-- Footer Section starts -->
+     <Footer>
+        <div class="footer">
+            <p>Copyright &copy; 2022. Made by <span>delfina.</span> </p>
+        </div>
+     </Footer>
+     <!-- Footer Section Ends -->
 
 
     <script src="./app.js"></script>
