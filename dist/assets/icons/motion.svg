@@ -1,5 +1,5 @@
 <svg width="96" height="104" viewBox="0 0 96 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M42.972 1H52.963C69.517 1 82.936 14.43 82.936 31V41C82.936 57.568 69.516 71 52.963 71H42.973C26.419 71 12.999 57.568 12.999 41V31C12.999 14.431 26.419 1 42.972 1V1Z" fill="#9CAFF4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42.972 1H52.963C69.517 1 82.936 14.43 82.936 31V41C82.936 57.568 69.516 71 52.963 71H42.973C26.419 71 12.999 57.568 12.999 41V31C12.999 14.431 26.419 1 42.972 1Z" fill="#9CAFF4"/>
 <g filter="url(#filter0_d_2_2)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M42.972 1H52.963C69.517 1 82.936 14.43 82.936 31V41C82.936 57.568 69.516 71 52.963 71H42.973C26.419 71 12.999 57.568 12.999 41V31C12.999 14.431 26.419 1 42.972 1V1Z" fill="url(#paint0_linear_2_2)"/>
 </g>
@@ -16,8 +16,8 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_2" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_2_2" x1="53.376" y1="113.413" x2="125.385" y2="30.651" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A6DAF3"/>
-<stop offset="1" stop-color="#9CAFF4"/>
+<stop stop-color="#B7D7E7"/>
+<stop offset="1" stop-color="#436AF3"/>
 </linearGradient>
 </defs>
 </svg>
